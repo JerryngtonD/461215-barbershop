@@ -10,7 +10,7 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
-          <img src="img/index-logo.svg" width="111" height="24"
+          <img src="img/logo-catalogue.svg" width="111" height="24"
            alt="Логотип барбершопа «Бородинский»">
         </a>
         <ul class="site-navigation">
@@ -242,8 +242,10 @@
         </ul>
       </section>
     </main>
+
     <footer class="main-footer">
-      <p class="footer-contacts">
+      <div class="container">
+        <p class="footer-contacts">
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
         <a href="map.html">Как нас найти?</a><br>
@@ -258,39 +260,8 @@
         </ul>
       </div>
       <p class="footer-copyright">
-        <b>Разработано:</b>
-        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+        <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
       </p>
+      </div>
     </footer>
-
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
-      <form class="login-form" action="https://echo.htmlacademy.ru"
-        method="post">
-
-        <p>
-          <label class="visually-hidden" for="user-password">Логин</label>
-          <input class="login-icon-user" type="text" name="login" placeholder="Логин">
-        </p>
-
-        <p>
-          <label class="visually-hidden" for="user-password">Пароль</label>
-          <input class="login-icon-password" type="password" name="password" placeholder="Пароль">
-        </p>
-
-        <p class="login-password-info">
-          <label class="login-checkbox">
-            <input type="checkbox" name="remember" class="visually-hidden">
-            Запомните меня
-          </label>
-          <a class="restore" href="#">Я забыл пароль!</a>
-        </p>
-
-        <button class="button" type="submit">Войти</button>
-      </form>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
-
-  </body>
 </html>
